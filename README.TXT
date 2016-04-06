@@ -1,0 +1,1 @@
+BEST4REST application provides information about popular tourist resorts of the world. It includes 5 popular resorts for travelers from the description and photos. Tested on Samsung Galaxy Duos devices, Amazon FirePhone, Assistant AP-803.
