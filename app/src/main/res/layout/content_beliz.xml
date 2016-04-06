@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/defaultLinearLayoutPadding"
+    android:background="@color/colorBackGround"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".BelizActivity"
+    tools:showIn="@layout/activity_beliz">
+
+
+    <TextView style="@style/TextViewDescription"
+        android:text="@string/belize"
+        android:id="@+id/TitleBelize" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/belize"
+                android:src="@drawable/beliz"
+                android:scaleType="fitStart"/>
+
+            <TextView style="@style/TextViewDescription"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/belizeDescription"
+                android:id="@+id/textView" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
